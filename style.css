@@ -124,3 +124,36 @@ button {
     font-size: 24px;
 }
 
+.fourth-section {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 120px;
+}
+
+.call-to-action{
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background-color: #3882F6;
+}
+
+.foot-button {
+    border: 1px solid white;
+    margin: 5px;
+}
+
+.call-head, .call-text {
+    color: #F9FAF8;
+}
+
+.call-head {
+    font-size: 24px;
+}
+
+.call-text {
+    font-size: 13px
+}
