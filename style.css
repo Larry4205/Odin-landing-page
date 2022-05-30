@@ -73,4 +73,27 @@ button {
     border-radius: 10px;
     font-size: 16px;
     font-weight: bold;
+    border-width: 0px;
+}
+
+.container {
+    max-width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.item {
+    border: 3px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px
 }
