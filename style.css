@@ -1,12 +1,14 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
+    padding: 15px 120px;
 }
 
 .logo {
     font-size: 24px;
-    color: white;
+    color: #F9FAF8;
 }
 
 .header-links {
@@ -17,5 +19,11 @@
 ul {
     margin: 0px;
     padding: 0px;
-    gap: 6px
+    gap: 10px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
