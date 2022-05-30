@@ -67,7 +67,10 @@ p {
 }
 
 button {
-    background-color: skyblue;
+    background-color: #3882F6;
     color: white;
-    padding: 20px 40px
+    padding: 4px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
 }
