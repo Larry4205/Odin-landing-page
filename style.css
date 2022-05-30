@@ -6,6 +6,29 @@
     padding: 15px 120px;
 }
 
+.first-section {
+    display: flex;
+    padding: 80px 120px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    gap: 60px
+}
+
+.first-left {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-right {
+    flex: 1;
+    display: flex;
+    background-color: gray;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -26,4 +49,25 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.hero {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: skyblue;
+    color: white;
+    padding: 20px 40px
 }
